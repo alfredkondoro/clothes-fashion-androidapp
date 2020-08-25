@@ -29,7 +29,6 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
 
         girlsbtn.setOnClickListener(this);
         boysbtn.setOnClickListener(this);
-        getUsers();
     }
 
     @Override

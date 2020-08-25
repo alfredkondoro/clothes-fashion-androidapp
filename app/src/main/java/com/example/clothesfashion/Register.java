@@ -30,7 +30,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
     private EditText phonenumber_input;
     private EditText password_input;
     private EditText confirmpassword_input;
-    private static final String URL_CREATE_ACCOUNT = "http://192.168.43.72/mo/create_account.php";
+    private static final String URL_CREATE_ACCOUNT = "http://192.168.43.225/mo/create_account.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

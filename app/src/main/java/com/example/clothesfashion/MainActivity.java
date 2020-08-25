@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private EditText username_input;
     private EditText password_input;
-    private static final String URL_LOGIN = "http://192.168.43.72/mo/login.php";
+    private static final String URL_LOGIN = "http://192.168.43.225/mo/login.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,8 +52,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (!(username.isEmpty() || password.isEmpty())){
                 login(username,password);
                 //TODO: comment this
-              Intent HomeIntent = new Intent(this,Home.class);
-            startActivity(HomeIntent);
+//              Intent HomeIntent = new Intent(this,Home.class);
+//            startActivity(HomeIntent);
             }
             else {
                 if(username.isEmpty() && !password.isEmpty()){
